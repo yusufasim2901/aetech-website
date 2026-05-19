@@ -8,9 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  // GitHub Pages deploys to /<repo-name>/ — set base accordingly.
-  // For custom domains, change this to '/'
-  base: '/aetech-website/',
+  // For custom domains (aetechsoftware.com), base must be '/'
+  // Only use '/aetech-website/' if serving from github.io/aetech-website/
+  base: '/',
   build: {
     outDir: 'dist',
   },
